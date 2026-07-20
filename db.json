@@ -14,20 +14,54 @@
       "id": "3",
       "title": "javascript",
       "message": "javascript is..."
+    },
+    {
+      "title": "test",
+      "message": "test1",
+      "id": "22GiemFsUCk"
+    },
+    {
+      "title": "test2",
+      "message": "test2",
+      "id": "gUddWnudejs"
+    },
+    {
+      "title": "test3",
+      "message": "test3",
+      "id": "KlCvOWbZ-pw"
+    },
+    {
+      "title": "test4",
+      "message": "test4",
+      "id": "KNO3XuFpT5A"
     }
   ],
-
   "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
   ],
-
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
   ],
-
   "profile": {
     "name": "typicode"
-  }
+  },
+  "$schema": "./node_modules/json-server/schema.json"
 }
